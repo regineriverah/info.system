@@ -11,11 +11,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   padding: 5px 20px;
   margin-top: 10px;
   position: fixed;
-  opacity: 0.70;
+  opacity: 0.7;
   width: 100%;
   z-index: 100;
   top: 0;
@@ -50,7 +50,7 @@ header .logo {
 }
 
 header .logo h1 {
-  font-family: 'Kreon', serif; /* Apply the Kreon font */
+  font-family: "Kreon", serif; /* Apply the Kreon font */
   font-size: 28px; /* Adjust the size as needed */
   font-weight: 500; /* Optional: Choose weight (400, 500, 700) */
   margin: 0; /* Remove default margin */
@@ -83,7 +83,7 @@ header .icons img.user-icon {
 }
 
 header .icons i:hover {
-  color: #000; 
+  color: #000;
 }
 
 /* Sidebar Menu */
@@ -92,13 +92,13 @@ header .icons i:hover {
   top: 105px;
   right: 3px;
   width: 200px;
-  background: #D9D9D9;
-  opacity: 0.70;
+  background: #d9d9d9;
+  opacity: 0.7;
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   display: none; /* Hidden by default */
   z-index: 200;
-  text-align: center; 
+  text-align: center;
 }
 
 #sidebar-menu.visible {
@@ -141,32 +141,31 @@ header .icons i:hover {
   color: #ff6b6b; /* Red hover effect */
 }
 
-
 /* Profile Section */
 .profile-section {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
-  margin-top: 100px; 
+  margin-top: 100px;
 }
 
 .profile-box {
-  background: #FFFFFF;
+  background: #ffffff;
   border: 1px solid #000000;
   border-radius: 15px;
   width: 60%;
   padding: 20px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
-  height: 400px; 
+  height: 400px;
 }
 
 .profile-box h2 {
-  font-family: 'Kreon', sans-serif;
+  font-family: "Kreon", sans-serif;
   font-size: 30px;
   font-weight: bold;
-  color: #FF6200; /* Orange color for the title */
+  color: #ff6200; /* Orange color for the title */
   margin-top: 0;
   border-bottom: 1px solid #000; /* Underline color and thickness */
   padding-bottom: 2px;
@@ -196,7 +195,7 @@ header .icons i:hover {
   position: absolute;
   bottom: 5px;
   right: 5px;
-  color: #FF6200;
+  color: #ff6200;
   border: none;
   padding: 5px;
   border-radius: 50%;
@@ -205,7 +204,7 @@ header .icons i:hover {
 }
 
 .upload-icon:hover {
-  color: #0A9396;
+  color: #0a9396;
 }
 
 .upload-icon i {
@@ -221,12 +220,12 @@ input[type="file"] {
   flex-wrap: wrap;
   justify-content: space-between; /* Distributes content evenly */
   width: 100%; /* Ensures full width of the container */
-  font-family: 'Kreon', sans-serif;
+  font-family: "Kreon", sans-serif;
   font-size: 16px;
   color: #000000;
   line-height: 1.8; /* Increases spacing between lines */
   margin: 20px 0;
-  gap: 20px; 
+  gap: 20px;
 }
 
 .profile-column {
@@ -255,7 +254,7 @@ input[type="file"] {
 .input-field {
   flex: 1; /* Ensures input fields fill the remaining space */
   padding: 5px;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #cccccc;
   border-radius: 5px;
   font-size: 14px;
   color: #333333;
@@ -265,11 +264,10 @@ input[type="file"] {
 }
 
 .input-field:focus {
-  border-color: #FF6200;
+  border-color: #ff6200;
   outline: none;
   box-shadow: 0 0 5px rgba(255, 98, 0, 0.5);
 }
-
 
 .edit-profile-btn {
   background-color: #097476;
@@ -277,14 +275,14 @@ input[type="file"] {
   padding: 7px 15px;
   border: none;
   border-radius: 12px;
-  font-family: 'Kreon', sans-serif;
+  font-family: "Kreon", sans-serif;
   font-size: 16px;
   cursor: pointer;
   margin-top: 8px;
 }
 
 .edit-profile-btn:hover {
-  background-color: #0A9396;
+  background-color: #0a9396;
   color: #000000;
   transition: 0.3s;
 }
@@ -300,7 +298,7 @@ input[type="file"] {
   width: 100%; /* Full width of the viewport */
   height: 35px; /* Adjusted height */
   bottom: 0; /* Aligns to the bottom of the viewport */
-  background: #FFFFFF; /* Background color */
+  background: #ffffff; /* Background color */
   border-top: 1px solid #000000; /* Border for a clean separation */
   display: flex; /* Use Flexbox for alignment */
   justify-content: center; /* Center the text horizontally */
@@ -309,7 +307,7 @@ input[type="file"] {
 
 /* Footer Text */
 .footer-rectangle p {
-  font-family: 'Kreon', sans-serif; /* Kreon font */
+  font-family: "Kreon", sans-serif; /* Kreon font */
   font-style: normal;
   font-weight: 700;
   font-size: 18px; /* Slightly increased for better readability */
@@ -325,7 +323,7 @@ input[type="file"] {
   top: 95px; /* Position it below the user icon */
   right: 43px;
   width: 200px;
-  background: #D9D9D9;
+  background: #d9d9d9;
   opacity: 0.95;
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -385,10 +383,6 @@ input[type="file"] {
 #user-menu #user-menu-close:hover {
   color: #ff6b6b; /* Red hover effect */
 }
-
-
-
-
 
 /* Responsive Design Enhancements */
 @media screen and (max-width: 768px) {
